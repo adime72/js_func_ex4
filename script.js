@@ -1,0 +1,6 @@
+
+function theCountryName(cname){
+
+  centered()
+    }
+}
