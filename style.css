@@ -31,7 +31,7 @@
   position: relative;
 }
 
-.theCountryName > p {
+.theCountryName > h4 {
   display: block;
   position: absolute;
   width: 100px;

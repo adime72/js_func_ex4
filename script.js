@@ -1,13 +1,12 @@
 
-function NoCountryName(currentFlag) {
-  if (currentFlag.className.includes("theCountryName")) {
-      currentFlag.className = currentFlag.className.replace("theCountryName", "");
+function NoCountryName(thisFlag) {
+  if (thisFlag.className.includes("theCountryName")) {
+      thisFlag.className = thisFlag.className.replace("theCountryName", "");
   }
+}
+  function theCountryName(thisFlag) {
 
-  function theCountryName(currentFlag) {
-    // currentFlag is an element Object
-    // var classNameString = currentFlag.className;
-    // classNameString.includes("*****");
-    if (!currentFlag.className.includes("theCountryName")) {
-        currentFlag.className += "theCountryName";
+    if (!thisFlag.className.includes("theCountryName")) {
+        thisFlag.className += "theCountryName";
     }
+  }
