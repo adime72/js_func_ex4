@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-    <title>JS func ex4</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <title>JS func ex4</title>
 </head>
+
 <body>
-        <h1>Ex'4 JavaScripts functions</h1> 
+  <h1 class="main-title">Ex'4 JavaScripts functions</h1>
+
+
+  <div class="col-lg-5">
+    <div class="flag" onmouseover="theCountryName(this)" onmouseout="NoCountryName(this)">
+      <img  src="france flag.jpg" width="200" height="236">
+      <h4>france</h4>
     </div>
-      
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5">
-        <div class="flag">
-          <img onmouseover="theCountryName(france)" onmouseout="theCountryName(france)" src="france flag.jpg"  width="200" height="236">
-         <div class="centered">
-           <h4>france</h4>
-         </div>
-      </div>
-          <img onmouseover="theCountryName(holand)" onmouseout="theCountryName(holand)" src="holand flag.jpg"  width="200" height="236">
-          <img onmouseover="theCountryName(Italy)" onmouseout="theCountryName(Italy)" src="italy.jpg"  width="200" height="236">
-          <img onmouseover="theCountryName(Israel)" onmouseout="theCountryName(Israel)" src="The-Israeli-Flag.jpg"  width="200" height="236">
-          <img onmouseover="theCountryName(USA)" onmouseout="theCountryName(USA)"src="USA flag.jpg"  width="200" height="236">
-        </div>
-    
+  </div>
+  <div class="col-lg-5">
+    <div class="flag" onmouseover="theCountryName(this)" onmouseout="NoCountryName(this)">
+      <img  src="holand flag.jpg" width="200" height="236">
+      <h4>holand</h4>
+    </div>
+  </div>
+  <div class="col-lg-5">
+    <div class="flag" onmouseover="theCountryName(this)" onmouseout="NoCountryName(this)">
+      <img  src="italy.jpg" width="200" height="236">
+      <h4>Italy</h4>
+    </div>
+  </div>
+  <div class="col-lg-5">
+    <div class="flag" onmouseover="theCountryName(this)" onmouseout="NoCountryName(this)">
+      <img  src="The-Israeli-Flag.jpg" width="200" height="236">
+      <div class="centered">
+        <h4>Israel</h4>
       </div>
     </div>
-</body> 
-</html>
+    <div class="col-lg-5">
+      <div class="flag" onmouseover="theCountryName(this)" onmouseout="NoCountryName(this)">
+        <img  src="USA flag.jpg" width="200" height="236">
+        <h4>USA</h4>
+      </div>
+    </div>
+
+
+</body>
+
+</html >

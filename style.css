@@ -1,14 +1,11 @@
-
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.centered {
-   /* position: absolute;
+/*
+.flag h4 {
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);*/
+    /*
+    display: block;
     position: absolute;
     bottom: 16px;
     right: 16px;
@@ -17,15 +14,31 @@
     font-size: 23px;
     color: white;
 }
-.centered h4 {
-    margin: 0;
-    padding: 5px;
-  }
+
   .flag{
-    position: relative;
+    position: absolute;
     text-align: center;
-    color: white;   
+    color: rgb(55, 10, 139);   
     float: left;
-    /* padding: 23px 3px;*/
+    /* padding: 23px 3px;
     padding: 0;
-  }
+  }*/
+
+.flag > h4 {
+  display: none;
+}
+.theCountryName {
+  position: relative;
+}
+
+.theCountryName > p {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  top: calc(50% - 10px);
+  left: calc(50% - 50px);
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  text-align: center;
+}
