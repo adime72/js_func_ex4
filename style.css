@@ -38,7 +38,7 @@
   height: 20px;
   top: calc(50% - 10px);
   left: calc(50% - 50px);
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.6);
   color: white;
   text-align: center;
 }
