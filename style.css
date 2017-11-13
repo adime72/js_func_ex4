@@ -26,13 +26,17 @@
 
 .flag > h4 {
   display: none;
-}
+} 
 .theCountryName {
   position: relative;
 }
 
-.theCountryName > h4 {
-  display: block;
+.flag{
+  position: relative;
+}
+
+.flag > h4 {
+  /* display: block; */
   position: absolute;
   width: 100px;
   height: 20px;
