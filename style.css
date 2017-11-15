@@ -38,6 +38,7 @@
 .flag > h4 {
   /* display: block; */
   position: absolute;
+  display: block;
   width: 100px;
   height: 20px;
   top: calc(50% - 10px);
