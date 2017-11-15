@@ -7,6 +7,6 @@ function NoCountryName(thisFlag) {
   function theCountryName(thisFlag) {
 
     if (!thisFlag.className.includes("theCountryName")) {
-        thisFlag.className += "theCountryName";
+        thisFlag.className += " theCountryName";
     }
   }
