@@ -27,15 +27,15 @@
 .flag > h4 {
   display: none;
 } 
+
 .theCountryName {
   position: relative;
 }
-
 .flag{
   position: relative;
 }
 
-.flag > h4 {
+.theCountryName > h4 {
   /* display: block; */
   position: absolute;
   display: block;
